@@ -6,6 +6,7 @@ g.add_vertices(3)
 g.add_edges([(0, 1), (1, 0), (1, 2)])
 g.vs["name"] = [600, 601, 602]
 g.vs["vsize"] = 100
+
 g.vs["vendo"] = [1, 3, 3]
 g.vs["damage"] = 0
 g.vs["fire"] = False
@@ -116,7 +117,7 @@ def list_my_edges():                #prints the graph edges by vertex
             print("outgoing")
             print(all_out)
         source_target += 1
-list_my_edges()
+#list_my_edges()
 
                                     # begins the dream cycle function here
 command = ""
@@ -151,6 +152,7 @@ while True:
         break
     else:
         print("wrong command dude")
+
 
 
 
